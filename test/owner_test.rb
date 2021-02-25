@@ -9,7 +9,6 @@ class OwnerTest < Minitest::Test
     @car_1 = Car.new({description: 'Green Ford Mustang', year: '1967'})
     @car_2 = Car.new({description: 'Silver BMW 3-Series', year: '2001'})
     @car_3 = Car.new({description: 'Red Chevrolet Corvette', year: '1963'})
-
   end
 
   def test_it_exists
